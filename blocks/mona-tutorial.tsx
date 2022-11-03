@@ -63,7 +63,6 @@ const Steps = ({ sections, activeSectionIndex, setActiveSectionIndex }: {
     <Scrollama
       offset={0.3}
       onStepEnter={({ data }) => {
-        console.log(data.index)
         setActiveSectionIndex(data.index)
       }}>
       {sections.map((section, index) => (

@@ -144,7 +144,6 @@ export default function ({ content, languageName, isEditable, onUpdateContent }:
 
     const languageDescription = languages.find((l) => l.name === languageName)
     if (!languageDescription) return
-    console.log(languageDescription,languages)
 
     if (languageDescription) {
       languageDescription.load().then((lang) => {
