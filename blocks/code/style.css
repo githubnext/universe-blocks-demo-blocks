@@ -1,0 +1,32 @@
+.cm-line {
+  white-space: pre-wrap;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.cm-editor {
+  padding: 1em 1em 10em;
+  min-height: 100%;
+  margin: 0 auto;
+  outline: none !important;
+}
+
+.cm-editor div.cm-scroller {
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace;
+}
+
+.cm-editor div.cm-scroller {
+  line-height: 1.6em;
+}
+.cm-content {
+  max-width: 100%;
+}
+
+.cm-line {
+  white-space: pre-wrap;
+}

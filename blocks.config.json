@@ -1,20 +1,11 @@
 [
   {
     "type": "file",
-    "id": "file-block",
-    "title": "Example File Block",
-    "description": "A basic file block",
-    "entry": "blocks/example-file-block/index.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
-  },
-  {
-    "type": "folder",
-    "id": "folder-block",
-    "title": "Example Folder Block",
-    "description": "A basic folder block",
-    "entry": "blocks/example-folder-block.tsx",
-    "matches": ["*"],
-    "example_path": "https://github.com/githubocto/flat"
+    "id": "mona.js",
+    "title": "Mona.js Sandbox",
+    "description": "Test out Mona.js in a sandbox environment.",
+    "entry": "blocks/mona.tsx",
+    "matches": ["*.js"],
+    "example_path": "https://github.com/githubnext/universe-blocks-demo/blob/main/docs/demos/demo.js"
   }
 ]
