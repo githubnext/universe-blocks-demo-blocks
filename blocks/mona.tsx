@@ -41,7 +41,9 @@ function Wrapper({ content, context, onRequestGitHubData }: FileBlockProps) {
         onClick={onRunCode}
       >
         <PlayIcon size={16} />
-        <Text ml={2}>Run</Text>
+        <Text ml={2}>
+          Add a Mona!
+        </Text>
       </Button>
       <Code
         content={workingContent}
