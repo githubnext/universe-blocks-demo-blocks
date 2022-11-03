@@ -7,5 +7,14 @@
     "entry": "blocks/mona.tsx",
     "matches": ["*.js"],
     "example_path": "https://github.com/githubnext/universe-blocks-demo/blob/main/docs/demos/demo.js"
+  },
+  {
+    "type": "file",
+    "id": "mona.js-tutorial",
+    "title": "Mona.js Tutorial",
+    "description": "Learn how to use Mona.js",
+    "entry": "blocks/mona-tutorial.tsx",
+    "matches": ["docs/*.md"],
+    "example_path": "https://github.com/githubnext/universe-blocks-demo/blob/main/docs/Getting Started.md"
   }
 ]

@@ -11,6 +11,10 @@ export default function (props: FileBlockProps) {
 function Wrapper({ content, context, onRequestGitHubData }: FileBlockProps) {
   const [workingContent, setWorkingContent] = useState(content);
 
+  useEffect(() => {
+    setWorkingContent(content);
+  }, [content]);
+
   const onLoadLib = async () => {
     const path = "src/index.js"
     const libCode = await onRequestGitHubData(
