@@ -19,7 +19,7 @@ function Wrapper({ content, context, onRequestGitHubData }: FileBlockProps) {
     const unencodedContent = atob(libCode.content)
     const libWithoutExport = unencodedContent.replace(/module.exports = [^\n]+/, "")
     const libWithGlobalBinding = libWithoutExport + `
-    window.onPlay = playMonamoji`
+    window.onAddMona = onAddMona`
     eval(libWithGlobalBinding)
   }
   useEffect(() => {
