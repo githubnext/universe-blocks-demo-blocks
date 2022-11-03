@@ -32,12 +32,17 @@ function Wrapper({ content, context, onRequestGitHubData }: FileBlockProps) {
   }
 
   return (
-    <Box p={4}>
+    <Box>
       <Button
         sx={{
+          position: "fixed",
+          top: "2em",
+          right: "2em",
           display: "flex",
           alignItems: "center",
+          zIndex: 1000,
         }}
+        variant="primary"
         onClick={onRunCode}
       >
         <PlayIcon size={16} />
